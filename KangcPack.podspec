@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = “KangcPack”
+  s.name         = "KangcPack"
 
   s.version      = "0.0.1"
 
-  s.summary      = “SWIFT develop support pack“
+  s.summary      = "SWIFT develop support pack"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "This is Simple Custom TabBarController, vary vary ez"
 
-  s.homepage     = "https://github.com/inchan.git"
+  s.homepage     = "https://github.com/inchan/KangcPack“
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
