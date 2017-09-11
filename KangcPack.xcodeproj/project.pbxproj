@@ -543,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7C0FDCDE400AF800B52EC40 /* Pods-KangcPack.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
@@ -564,6 +565,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C67B40985AD94C789B7F3C5E /* Pods-KangcPack.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";

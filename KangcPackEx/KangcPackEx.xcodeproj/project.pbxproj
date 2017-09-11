@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45540D941F614F180058B00C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45540D931F614F180058B00C /* AppDelegate.swift */; };
-		45540D961F614F180058B00C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45540D951F614F180058B00C /* ViewController.swift */; };
-		45540D991F614F180058B00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45540D971F614F180058B00C /* Main.storyboard */; };
-		45540D9B1F614F180058B00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45540D9A1F614F180058B00C /* Assets.xcassets */; };
-		45540D9E1F614F180058B00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45540D9C1F614F180058B00C /* LaunchScreen.storyboard */; };
 		45540DA91F614F180058B00C /* KangcPackExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45540DA81F614F180058B00C /* KangcPackExTests.swift */; };
-		45540E451F6256A70058B00C /* KangcPack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45540DFC1F6242840058B00C /* KangcPack.framework */; };
-		45540E461F6256A70058B00C /* KangcPack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45540DFC1F6242840058B00C /* KangcPack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		45F647E21F66735A0002C6A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F647CA1F66735A0002C6A1 /* AppDelegate.swift */; };
+		45F647E41F66735A0002C6A1 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F647CF1F66735A0002C6A1 /* Common.swift */; };
+		45F647E51F66735A0002C6A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F647D71F66735A0002C6A1 /* ViewController.swift */; };
+		45F647E61F66735A0002C6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F647DA1F66735A0002C6A1 /* Assets.xcassets */; };
+		45F647E71F66735A0002C6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F647DD1F66735A0002C6A1 /* LaunchScreen.storyboard */; };
+		45F647E81F66735A0002C6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F647DF1F66735A0002C6A1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,103 +24,33 @@
 			remoteGlobalIDString = 45540D8F1F614F180058B00C;
 			remoteInfo = KangcPackEx;
 		};
-		45540DFB1F6242840058B00C /* PBXContainerItemProxy */ = {
+		45540E551F6283B20058B00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1535C71546327FC18448B996A3366F9F;
+			remoteInfo = "Pods-KangcPack";
+		};
+		45540E571F6283B20058B00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1523CCDA224E5EB4633314C365E7A984;
+			remoteInfo = "Pods-KangcPackTests";
+		};
+		45FFDA261F66687900F535D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45540DF61F6242840058B00C /* KangcPack.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 45540D131F61479C0058B00C;
 			remoteInfo = KangcPack;
 		};
-		45540DFD1F6242840058B00C /* PBXContainerItemProxy */ = {
+		45FFDA281F66687900F535D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 45540DF61F6242840058B00C /* KangcPack.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 45540D1C1F61479C0058B00C;
 			remoteInfo = KangcPackTests;
-		};
-		45540E1B1F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C0E99C738283E958FC7BACA48193020;
-			remoteInfo = Alamofire;
-		};
-		45540E1D1F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B95E2493C83E18244188A028968AB6BC;
-			remoteInfo = AlamofireObjectMapper;
-		};
-		45540E1F1F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F59B9721818945B3F2A287F014D47E5C;
-			remoteInfo = CryptoSwift;
-		};
-		45540E211F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E3EE2B3CCAB11E1618320FA94C6B80DF;
-			remoteInfo = KVOController;
-		};
-		45540E231F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E6118056E5B62C30A6BB28EE4FD03A0A;
-			remoteInfo = ObjectMapper;
-		};
-		45540E251F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BB8279F88F2FABA6651D9CA6C013CE3A;
-			remoteInfo = "Pods-KangcPack";
-		};
-		45540E271F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FFCF573B83A3668937B320C2F7D2494E;
-			remoteInfo = "Pods-KangcPackTests";
-		};
-		45540E291F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F2794D37104C376EECC84111F63B4EE1;
-			remoteInfo = SDWebImage;
-		};
-		45540E2B1F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 457A2A9406DAC52861612B38FDE486FE;
-			remoteInfo = Sniffer;
-		};
-		45540E2D1F6243470058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6A33B501D0FA703992AC1DED1589DD62;
-			remoteInfo = Toaster;
-		};
-		45540E361F6256970058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DF61F6242840058B00C /* KangcPack.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 45540D121F61479C0058B00C;
-			remoteInfo = KangcPack;
-		};
-		45540E471F6256A70058B00C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 45540DF61F6242840058B00C /* KangcPack.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 45540D121F61479C0058B00C;
-			remoteInfo = KangcPack;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -132,7 +61,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45540E461F6256A70058B00C /* KangcPack.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,17 +69,18 @@
 
 /* Begin PBXFileReference section */
 		45540D901F614F180058B00C /* KangcPackEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KangcPackEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		45540D931F614F180058B00C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45540D951F614F180058B00C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		45540D981F614F180058B00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		45540D9A1F614F180058B00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		45540D9D1F614F180058B00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		45540D9F1F614F180058B00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45540DA41F614F180058B00C /* KangcPackExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KangcPackExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45540DA81F614F180058B00C /* KangcPackExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KangcPackExTests.swift; sourceTree = "<group>"; };
 		45540DAA1F614F180058B00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45540DF61F6242840058B00C /* KangcPack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KangcPack.xcodeproj; path = ../../KangcPack.xcodeproj; sourceTree = "<group>"; };
-		45540DFF1F62428F0058B00C /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = ../../Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		45540DF61F6242840058B00C /* KangcPack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KangcPack.xcodeproj; path = ../KangcPack.xcodeproj; sourceTree = "<group>"; };
+		45540DFF1F62428F0058B00C /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = ../Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		45F647CA1F66735A0002C6A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45F647CC1F66735A0002C6A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45F647CF1F66735A0002C6A1 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		45F647D71F66735A0002C6A1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45F647DA1F66735A0002C6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F647DE1F66735A0002C6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45F647E01F66735A0002C6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,7 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45540E451F6256A70058B00C /* KangcPack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,9 +104,11 @@
 		45540D871F614F180058B00C = {
 			isa = PBXGroup;
 			children = (
-				45540D921F614F180058B00C /* KangcPackEx */,
+				45F647C81F66735A0002C6A1 /* KangcPackEx */,
 				45540DA71F614F180058B00C /* KangcPackExTests */,
 				45540D911F614F180058B00C /* Products */,
+				45540DF61F6242840058B00C /* KangcPack.xcodeproj */,
+				45540DFF1F62428F0058B00C /* Pods.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,21 +121,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45540D921F614F180058B00C /* KangcPackEx */ = {
-			isa = PBXGroup;
-			children = (
-				45540D931F614F180058B00C /* AppDelegate.swift */,
-				45540D951F614F180058B00C /* ViewController.swift */,
-				45540D971F614F180058B00C /* Main.storyboard */,
-				45540D9A1F614F180058B00C /* Assets.xcassets */,
-				45540D9C1F614F180058B00C /* LaunchScreen.storyboard */,
-				45540D9F1F614F180058B00C /* Info.plist */,
-				45540DF61F6242840058B00C /* KangcPack.xcodeproj */,
-				45540DFF1F62428F0058B00C /* Pods.xcodeproj */,
-			);
-			path = KangcPackEx;
-			sourceTree = "<group>";
-		};
 		45540DA71F614F180058B00C /* KangcPackExTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -215,28 +130,162 @@
 			path = KangcPackExTests;
 			sourceTree = "<group>";
 		};
-		45540DF71F6242840058B00C /* Products */ = {
+		45540E511F6283B20058B00C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45540DFC1F6242840058B00C /* KangcPack.framework */,
-				45540DFE1F6242840058B00C /* KangcPackTests.xctest */,
+				45540E561F6283B20058B00C /* Pods_KangcPack.framework */,
+				45540E581F6283B20058B00C /* Pods_KangcPackTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		45540E0F1F6243470058B00C /* Products */ = {
+		45F647C81F66735A0002C6A1 /* KangcPackEx */ = {
 			isa = PBXGroup;
 			children = (
-				45540E1C1F6243470058B00C /* Alamofire.framework */,
-				45540E1E1F6243470058B00C /* AlamofireObjectMapper.framework */,
-				45540E201F6243470058B00C /* CryptoSwift.framework */,
-				45540E221F6243470058B00C /* KVOController.framework */,
-				45540E241F6243470058B00C /* ObjectMapper.framework */,
-				45540E261F6243470058B00C /* Pods_KangcPack.framework */,
-				45540E281F6243470058B00C /* Pods_KangcPackTests.framework */,
-				45540E2A1F6243470058B00C /* SDWebImage.framework */,
-				45540E2C1F6243470058B00C /* Sniffer.framework */,
-				45540E2E1F6243470058B00C /* Toaster.framework */,
+				45F647C91F66735A0002C6A1 /* AppDelegate */,
+				45F647CD1F66735A0002C6A1 /* Classes */,
+				45F647D81F66735A0002C6A1 /* Resources */,
+			);
+			path = KangcPackEx;
+			sourceTree = "<group>";
+		};
+		45F647C91F66735A0002C6A1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				45F647CA1F66735A0002C6A1 /* AppDelegate.swift */,
+				45F647CB1F66735A0002C6A1 /* Support */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		45F647CB1F66735A0002C6A1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				45F647CC1F66735A0002C6A1 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		45F647CD1F66735A0002C6A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				45F647CE1F66735A0002C6A1 /* Common */,
+				45F647D31F66735A0002C6A1 /* Components */,
+				45F647D41F66735A0002C6A1 /* DataModels */,
+				45F647D51F66735A0002C6A1 /* Modules */,
+				45F647D61F66735A0002C6A1 /* Scenes */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		45F647CE1F66735A0002C6A1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				45F647CF1F66735A0002C6A1 /* Common.swift */,
+				45F647D01F66735A0002C6A1 /* Extentions */,
+				45F647D11F66735A0002C6A1 /* Protocolos */,
+				45F647D21F66735A0002C6A1 /* Super */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		45F647D01F66735A0002C6A1 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		45F647D11F66735A0002C6A1 /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocolos;
+			sourceTree = "<group>";
+		};
+		45F647D21F66735A0002C6A1 /* Super */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Super;
+			sourceTree = "<group>";
+		};
+		45F647D31F66735A0002C6A1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		45F647D41F66735A0002C6A1 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		45F647D51F66735A0002C6A1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		45F647D61F66735A0002C6A1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				45F647D71F66735A0002C6A1 /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		45F647D81F66735A0002C6A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45F647D91F66735A0002C6A1 /* Assets */,
+				45F647DB1F66735A0002C6A1 /* Fonts */,
+				45F647DC1F66735A0002C6A1 /* Sb */,
+				45F647E11F66735A0002C6A1 /* Xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45F647D91F66735A0002C6A1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				45F647DA1F66735A0002C6A1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		45F647DB1F66735A0002C6A1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		45F647DC1F66735A0002C6A1 /* Sb */ = {
+			isa = PBXGroup;
+			children = (
+				45F647DD1F66735A0002C6A1 /* LaunchScreen.storyboard */,
+				45F647DF1F66735A0002C6A1 /* Main.storyboard */,
+			);
+			path = Sb;
+			sourceTree = "<group>";
+		};
+		45F647E11F66735A0002C6A1 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		45FFDA221F66687800F535D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45FFDA271F66687900F535D1 /* KangcPack.framework */,
+				45FFDA291F66687900F535D1 /* KangcPackTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,8 +305,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				45540E371F6256970058B00C /* PBXTargetDependency */,
-				45540E481F6256A70058B00C /* PBXTargetDependency */,
 			);
 			name = KangcPackEx;
 			productName = KangcPackEx;
@@ -318,11 +365,11 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 45540DF71F6242840058B00C /* Products */;
+					ProductGroup = 45FFDA221F66687800F535D1 /* Products */;
 					ProjectRef = 45540DF61F6242840058B00C /* KangcPack.xcodeproj */;
 				},
 				{
-					ProductGroup = 45540E0F1F6243470058B00C /* Products */;
+					ProductGroup = 45540E511F6283B20058B00C /* Products */;
 					ProjectRef = 45540DFF1F62428F0058B00C /* Pods.xcodeproj */;
 				},
 			);
@@ -335,88 +382,32 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		45540DFC1F6242840058B00C /* KangcPack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = KangcPack.framework;
-			remoteRef = 45540DFB1F6242840058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540DFE1F6242840058B00C /* KangcPackTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = KangcPackTests.xctest;
-			remoteRef = 45540DFD1F6242840058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540E1C1F6243470058B00C /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 45540E1B1F6243470058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540E1E1F6243470058B00C /* AlamofireObjectMapper.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AlamofireObjectMapper.framework;
-			remoteRef = 45540E1D1F6243470058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540E201F6243470058B00C /* CryptoSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CryptoSwift.framework;
-			remoteRef = 45540E1F1F6243470058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540E221F6243470058B00C /* KVOController.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = KVOController.framework;
-			remoteRef = 45540E211F6243470058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540E241F6243470058B00C /* ObjectMapper.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ObjectMapper.framework;
-			remoteRef = 45540E231F6243470058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540E261F6243470058B00C /* Pods_KangcPack.framework */ = {
+		45540E561F6283B20058B00C /* Pods_KangcPack.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Pods_KangcPack.framework;
-			remoteRef = 45540E251F6243470058B00C /* PBXContainerItemProxy */;
+			remoteRef = 45540E551F6283B20058B00C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45540E281F6243470058B00C /* Pods_KangcPackTests.framework */ = {
+		45540E581F6283B20058B00C /* Pods_KangcPackTests.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Pods_KangcPackTests.framework;
-			remoteRef = 45540E271F6243470058B00C /* PBXContainerItemProxy */;
+			remoteRef = 45540E571F6283B20058B00C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45540E2A1F6243470058B00C /* SDWebImage.framework */ = {
+		45FFDA271F66687900F535D1 /* KangcPack.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SDWebImage.framework;
-			remoteRef = 45540E291F6243470058B00C /* PBXContainerItemProxy */;
+			path = KangcPack.framework;
+			remoteRef = 45FFDA261F66687900F535D1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		45540E2C1F6243470058B00C /* Sniffer.framework */ = {
+		45FFDA291F66687900F535D1 /* KangcPackTests.xctest */ = {
 			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Sniffer.framework;
-			remoteRef = 45540E2B1F6243470058B00C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		45540E2E1F6243470058B00C /* Toaster.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Toaster.framework;
-			remoteRef = 45540E2D1F6243470058B00C /* PBXContainerItemProxy */;
+			fileType = wrapper.cfbundle;
+			path = KangcPackTests.xctest;
+			remoteRef = 45FFDA281F66687900F535D1 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -426,9 +417,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45540D9E1F614F180058B00C /* LaunchScreen.storyboard in Resources */,
-				45540D9B1F614F180058B00C /* Assets.xcassets in Resources */,
-				45540D991F614F180058B00C /* Main.storyboard in Resources */,
+				45F647E71F66735A0002C6A1 /* LaunchScreen.storyboard in Resources */,
+				45F647E61F66735A0002C6A1 /* Assets.xcassets in Resources */,
+				45F647E81F66735A0002C6A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +437,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45540D961F614F180058B00C /* ViewController.swift in Sources */,
-				45540D941F614F180058B00C /* AppDelegate.swift in Sources */,
+				45F647E51F66735A0002C6A1 /* ViewController.swift in Sources */,
+				45F647E41F66735A0002C6A1 /* Common.swift in Sources */,
+				45F647E21F66735A0002C6A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,33 +459,23 @@
 			target = 45540D8F1F614F180058B00C /* KangcPackEx */;
 			targetProxy = 45540DA51F614F180058B00C /* PBXContainerItemProxy */;
 		};
-		45540E371F6256970058B00C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KangcPack;
-			targetProxy = 45540E361F6256970058B00C /* PBXContainerItemProxy */;
-		};
-		45540E481F6256A70058B00C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KangcPack;
-			targetProxy = 45540E471F6256A70058B00C /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		45540D971F614F180058B00C /* Main.storyboard */ = {
+		45F647DD1F66735A0002C6A1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				45540D981F614F180058B00C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		45540D9C1F614F180058B00C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				45540D9D1F614F180058B00C /* Base */,
+				45F647DE1F66735A0002C6A1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45F647DF1F66735A0002C6A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45F647E01F66735A0002C6A1 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -600,7 +582,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NE476725Q4;
-				INFOPLIST_FILE = KangcPackEx/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KangcPackEx/AppDelegate/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kangc.swift.KangcPackEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -614,7 +596,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NE476725Q4;
-				INFOPLIST_FILE = KangcPackEx/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KangcPackEx/AppDelegate/Support/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kangc.swift.KangcPackEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";

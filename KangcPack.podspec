@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
 
   s.name         = 'KangcPack'
-  s.version      = '0.0.2'
-  s.summary      = 'SWIFT develop support pack'
+  s.version      = '0.0.3'
+  s.summary      = 'SWIFT Develop package'
   s.license      = 'MIT'
   s.description  = 'This is Simple develop kit'
   s.homepage     = 'https://github.com/inchan/KangcPack'

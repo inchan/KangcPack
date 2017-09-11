@@ -24,7 +24,7 @@ extension KPProtocolNibLoader where Self: UIView {
     public static func instanceFromNib() -> Self? {
         
         guard let nibs = Bundle(for: self).loadNibNamed(nibName, owner: nil, options: nil) else {
-            Log.w("Don't have a Nib File - \(nibName)")
+            KPLog.w("Don't have a Nib File - \(nibName)")
             return nil
         }
         return nibs.lazy.filter { $0 is Self }.first as? Self
@@ -38,13 +38,13 @@ extension KPProtocolNibLoader where Self: UIViewController {
         // from storyboard
         if let instance = self.instanceFromStoryboard(identifier) {
             return instance
-        } else { Log.w("Don't have a Storyboard ID - \(nibName)") }
+        } else { KPLog.w("Don't have a Storyboard ID - \(nibName)") }
 
         
         // continue from nib
         if let instance = self.instanceFromNib(identifier) {
             return instance
-        } else { Log.w("Don't have a Nib File - \(nibName)") }
+        } else { KPLog.w("Don't have a Nib File - \(nibName)") }
         
         return self.init()
     }

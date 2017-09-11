@@ -10,16 +10,16 @@ import Foundation
 
 public enum kPLogType: String {
     case none       = ""
-    case debug      = "[DEBUG]"
-    case network    = "[NETWORK]"
-    case warning    = "[WARNING]"
-    case error      = "[ERROR]"
+    case debug      = "[DEBUG] "
+    case network    = "[NETWORK] "
+    case warning    = "[WARNING] "
+    case error      = "[ERROR] "
 }
 
-public var Log = kPLogger.shared
-public func Log<T>(_ log: T?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
-    Log.type = .debug
-    Log.output(log, file, function, line)
+public var KPLog = kPLogger.shared
+public func KPLog<T>(_ log: T?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
+    KPLog.type = .debug
+    KPLog.output(log, file, function, line)
 }
 
 public class kPLogger {
@@ -31,32 +31,32 @@ public class kPLogger {
     public var type: kPLogType = kPLogType.none
     
     public func system<T>(_ log: T?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
-        Log.type = .none
+        KPLog.type = .none
         output(log, file, function, line)
     }
     public func d<T>(_ log: T?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
-        Log.type = .debug
+        KPLog.type = .debug
         output(log, file, function, line)
     }
     public func n<T>(_ log: T?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
-        Log.type = .network
+        KPLog.type = .network
         output(log, file, function, line)
     }
     public func w<T>(_ log: T?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
-        Log.type = .warning
+        KPLog.type = .warning
         output(log, file, function, line)
     }
     public func e<T>(_ log: T?, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
-        Log.type = .error
+        KPLog.type = .error
         output(log, file, function, line)
     }
     
     fileprivate func output<T>(_ log: T?, _ file: String, _ function: String, _ line: Int) {
-        if Log.enable == true {
+        if KPLog.enable == true {
             let filename = file.lastPathComponent?.deletingPathExtension
-            let type = Log.type.rawValue
+            let type = KPLog.type.rawValue
             if let value = log {
-                print(" \(filename!).\(function) <\(line)> : \(type) \(value)" ,terminator: "\n")
+                print(" \(filename!).\(function) <\(line)> : \(type)\(value)" ,terminator: "\n")
             }
             else {
                 print(" \(filename!).\(function) <\(line)> : \(type) nil" ,terminator: "\n")
@@ -68,7 +68,7 @@ public class kPLogger {
 public extension kPLogger {
     
     public func error(_ e: Error, _ file: String = #file, _ function: String = #function, _ line: Int = #line) {
-        Log.type = .error
+        KPLog.type = .error
         output(e, file, function, line)
     }
     

@@ -9,11 +9,11 @@
 import Foundation
 
 public struct App {
-    static let name             = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
-    static let displayName      = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String ?? ""
-    static let bundleIdentifier = Bundle.main.bundleIdentifier ?? ""
-    static let appVersion       = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
-    static let buildNumber      = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
+    public static let name             = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
+    public static let displayName      = Bundle.main.infoDictionary?["CFBundleDisplayName"] as? String ?? ""
+    public static let bundleIdentifier = Bundle.main.bundleIdentifier ?? ""
+    public static let appVersion       = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
+    public static let buildNumber      = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? ""
 }
 
 extension App: CustomStringConvertible, CustomDebugStringConvertible {

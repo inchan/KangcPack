@@ -16,12 +16,12 @@ class ViewController: UIViewController, KPProtocolNibLoader {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        let vc = ViewController.instance()
-        Log.e(vc)
-        if let tvc = KPTopViewController() {
-            Log(tvc)
-        }
+//        
+//        let vc = ViewController.instance()
+//        //Log.e(vc)
+//        if let tvc = KPTopViewController() {
+//            //Log(tvc)
+//        }
         
         
     }
